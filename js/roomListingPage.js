@@ -25,6 +25,7 @@ document.getElementById("listRoom").addEventListener('click', function(e){
     {
         roomRent: document.getElementById("inputRent").value,
         username: document.getElementById("inputUsername").value,
+        roomFor: document.getElementById("selectRoomFor").value,
         furnished:document.getElementById("selectRoomType").value,
         waterFacility: document.getElementById("selectWaterFacility").value,
         parking: document.getElementById("selectParking").value,
