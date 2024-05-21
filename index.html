@@ -27,7 +27,7 @@
                         <a class="nav-link active fs-4 fw-bold" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active fs-4 fw-bold" href="#">Rooms</a>
+                        <a class="nav-link active fs-4 fw-bold" href="./pages/rooms.htm">Rooms</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active fs-4 fw-bold" href="#">Locations</a>
@@ -54,9 +54,57 @@
 
     <br>
     <br>
+    <div class="list-room rounded p-2 me-auto">
+        <a href="./pages/room-listing-page.html">List Rooms</a>
+    </div>
     <br>
     <br>
     <br>
+    <div class=" search-bar rounded p-3 mx-auto d-flex justify-content-evenly fs-5">
+        <div class="px-2">
+            <lable for="area">Area:</lable>
+            <select id="selectArea">
+                <option value="hingna">Hingna</option>
+            </select>
+        </div>
+            
+           
+        <div class="px-2">
+            <lable for="roomFor">Room for:</lable>
+            <select id="selectRoomFor">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+            
+            
+        <div class="px-2">
+            <lable for="roomType">Furnished:</lable>
+            <select id="selectRoomType">
+                <option value="f-f">Full-furnished</option>
+                <option value="s-f">Semi-furnished</option>
+                <option value="n-f">Non-furnished</option>
+            </select>
+        </div>
+            
+          
+        <div class="px-2">
+            <lable for="rent">Rent:</lable>
+            <select id="selectRent">
+                <option value="1">1000-1500</option>
+                <option value="2">1500-2000</option>
+                <option value="3">2000-2500</option>
+                <option value="4">2500-3000</option>
+                <option value="5">3000-3500</option>
+                <option value="6">3500-4000</option>
+                <option value="7">4000-5500</option>
+                <option value="8">5500-4000</option>
+            </select>
+        </div>
+            
+            <button type="button" class="search btn btn-warning px-5 mx-2">Search</button>
+        </form>
+    </div>
     <br>
     <br>
     <br>
